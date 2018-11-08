@@ -1,4 +1,4 @@
-FROM inshopgroup/crm-client-docker-nginx-prod
+FROM inshopgroup/docker-inshop-crm-client-nginx-prod
 
 # npm, yarn, webpack
 RUN apt-get update
