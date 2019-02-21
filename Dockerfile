@@ -1,4 +1,4 @@
-FROM registry.inshop.com.ua/crm/server/docker-inshop-crm-client-nginx-prod
+FROM inshopgroup/docker-inshop-crm-client-nginx-prod:latest
 
 # npm, yarn, webpack
 RUN apt-get update
